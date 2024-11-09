@@ -14,4 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
             mobileMenu.classList.add('active');
         }
     });
+
+     // Toggle mobile menu on when scrolling if it's not active
+     document.addEventListener('scroll', () => {
+        if (!mobileMenu.classList.contains('active')) {
+            mobileMenu.classList.add('active');
+        }
+    });
+
 });

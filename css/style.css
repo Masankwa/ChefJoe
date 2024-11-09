@@ -557,6 +557,9 @@ body{
         width:100%;
         margin-bottom: 20px;
     }
+    .grid-content{
+        height:50%;
+    }
 }
 @media(max-width:500px){
     

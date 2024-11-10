@@ -493,12 +493,7 @@ body{
         width:90vw;
         margin:auto;
     }
-    .hero-header{
-        font-size:1.7rem;
-    }
-    .hero-text{
-        font-size: 1.1rem;
-    }
+    
     .hamburger-button{
         display:block;
     }
@@ -596,5 +591,10 @@ body{
     }
 }
 @media(max-width:400px){
-    
+    .hero-header{
+        font-size:1.7rem;
+    }
+    .hero-text{
+        font-size: 1.1rem;
+    }
 }

@@ -580,6 +580,7 @@ body{
     .footer-group p{
         font-size:0.9rem;
         width:400px;
+        text-align: center;
     }
 }
 @media(max-width:400px){

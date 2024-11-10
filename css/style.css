@@ -513,6 +513,9 @@ body{
         text-align: center;
         margin-bottom: 30px;
     }
+    .footer-group {
+        margin:10px 0;
+    }
     .footer-group-container{
         flex-direction: column;
         justify-content: center;
@@ -574,7 +577,11 @@ body{
         justify-content: center;
         align-items: center;
     }
+    .footer-group p{
+        font-size:0.9rem;
+        width:400px;
+    }
 }
-@media(max-width:500px){
+@media(max-width:400px){
     
 }

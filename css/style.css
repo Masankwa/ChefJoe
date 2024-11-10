@@ -493,6 +493,12 @@ body{
         width:90vw;
         margin:auto;
     }
+    .hero-header{
+        font-size:1.7rem;
+    }
+    .hero-text{
+        font-size: 1.1rem;
+    }
     .hamburger-button{
         display:block;
     }
@@ -570,8 +576,14 @@ body{
     .feature-body .grid{
         width:100%;
     }
+    
     .feature-header p{
         background-color: #333;
+        color:#fff;
+        text-align: left;
+        width:85vw;
+        margin-left:-30px;
+        
     }
     .feature-body{
         justify-content: center;
